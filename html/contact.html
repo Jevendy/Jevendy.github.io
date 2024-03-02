@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <title>Contact</title>
+</head>
+<body class ="container p-5">
+    <header>
+        <img src="/img/header-logo.png" alt="Travel Agency Logo">
+        <section>
+            <h1>Travel Agency</h1>
+        </section>
+    </header>
+   <nav class="level p-5 subtitle is-5">
+        <p class="level-item navbar-item">
+            <a href="/index.html" class="link">Home</a></p>
+        <p class="level-item navbar-item">
+            <a href="/html/gallery.html" class="link">Gallery</a></p>
+        <p class="level-item navbar-item">
+            <a href="/html/contact.html" class="link">Contact</a></p>
+   </nav>
+    <div class="columns">
+            <div class="column content">
+                <table>
+                    <caption>Request Contact</caption>
+                    <tr>
+                        <td>
+                            <label for="name">Name</label>
+                        </td>
+                        <td>
+                            <input name="name" type="text" id="name">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="email">Email</label>
+                        </td>
+                        <td>
+                            <input name="email" type="email" id="email">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="contact">Contact Number</label>
+                        </td>
+                        <td>
+                            <input name="contact" type="tel" id="contact">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Preferred Contact Method</td>
+                        <td>
+                            <label for="radio1">Email </label>
+                            <input checked="checked" id="radio1" name="choice" type="radio">
+                            <label for="radio2">Phone </label>
+                            <input name="choice" id="radio2" type="radio">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="dropdown">Reason for Contact Request</label>
+                        </td>
+                        <td>
+                            <select id="dropdown">
+                                <option value="other">Please Select</option>
+                                <option value="1">Need Help</option>
+                                <option value="2">Just felt like it</option>
+                                <option value="3">Bees</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="checkbox">Would you like to sign up?</label>
+                        </td>
+                        <td>
+                            <input id="checkbox" name="thisisacheckbox" type="checkbox">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="username">Username</label>
+                        </td>
+                        <td>
+                            <input name="username" type="text" id="username">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="password">Password</label>
+                        </td>
+                        <td>
+                            <input name="password" type="password" id="password">
+                        </td>
+                    </tr>
+                </table>
+                <input class="button" type="submit" value="Submit">
+            </div>
+            <div class="column content">
+                    <table>
+                        <caption>Contact Information</caption>
+                        <tr>
+                            <th scope="row">Admin Contact Name</th>
+                            <td>Travel Agency</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Email Address</th>
+                            <td>example123@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Street Address</th>
+                            <td>8 Main Street Brisbane</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Phone Number</th>
+                            <td>04 1234 5678</td>
+                        </tr>
+                    </table>
+            </div>
+    </div>
+   <footer>
+    <a href="https://facebook.com" class="link">
+        <img src="../img/logo-facebook.png" alt="facebook">
+    </a>
+    <a href="https://twitter.com" class="link">
+        <img src="../img/logo-twitter.png" alt="twitter">
+    </a>
+    <a href="https://instagram.com" class="link">
+        <img src="../img/logo-instagram.png" alt="instagram">
+    </a>
+    <span>© 2024 Marcus Dickson</span>
+   </footer>
+</body>
+</html>
